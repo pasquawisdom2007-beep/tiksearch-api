@@ -1,0 +1,14 @@
+{
+  "name": "tiksearch-api",
+  "version": "1.0.0",
+  "description": "TikTok search and MP4 download API",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "puppeteer": "^23.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

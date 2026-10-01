@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tiksearch-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: API_KEY
+        generateValue: true
+      - key: SECRET
+        generateValue: true
